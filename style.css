@@ -1,0 +1,158 @@
+/* import fronts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+/************ Overall ************/
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+p {
+    margin: 0px;
+}
+
+
+/************ Portrait ************/
+@media only screen and (orientation: portrait) {
+
+    .logo-sq {
+        background-color: #172853;
+        width: auto;
+        height: 50vh;
+    }
+
+    .content-sq {
+        background-color: #FFDB12;
+        width: auto;
+        height: 50vh;
+    }
+
+    .fullscreen {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .name {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(2em + 2vw);
+        line-height: 51px;
+
+        color: #172853;
+    }
+
+    .t1 {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(1em + 1vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+
+    .t2 {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(1em + 1vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+
+    .phone {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(1em + 1vw);
+        line-height: 29px;
+        /* identical to box height */
+
+        color: #172853;
+    }
+
+    .link {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(1em + 1vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+
+}
+
+/************ Landscape ************/
+@media only screen and (orientation: landscape) {
+
+    .logo-sq {
+        background-color: #172853;
+        height: 100vh;
+    }
+
+    .content-sq {
+        background-color: #FFDB12;
+        height: 100vh;
+    }
+
+    .fullscreen {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .name {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(1.3em + 1vw);
+        line-height: calc(1.3em + 1vw);
+
+        color: #172853;
+    }
+
+    .t1 {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(1em + 0.5vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+
+    .t2 {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(1em + 0.5vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+
+    .phone {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(1em + 0.5vw);
+        line-height: 29px;
+        /* identical to box height */
+
+        color: #172853;
+    }
+
+    .link {
+        font-family: 'Noto Sans SC';
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(1em + 0.5vw);
+        line-height: 29px;
+
+        color: #172853;
+    }
+}
